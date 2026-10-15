@@ -1,0 +1,1 @@
+var e={framing:`#8b95a5`,header:`#5aa0ff`,payload:`#41d39a`,lcrc:`#f0a34c`,replay:`#b58cff`,bad:`#f2566a`},t={ack:`#b8f05a`,nak:`#f2566a`,credit:`#f5c542`};function n(e,t,n){return n?[{key:`header`,bytes:t},{key:`payload`,bytes:e}]:[{key:`framing`,bytes:4},{key:`header`,bytes:t},{key:`payload`,bytes:e},{key:`lcrc`,bytes:4}]}export{e as n,n as r,t};

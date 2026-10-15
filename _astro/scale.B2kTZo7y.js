@@ -1,0 +1,1 @@
+function e(e){let t=10**Math.floor(Math.log10(e));return[1,2,5,10].map(e=>e*t).find(t=>t>=e)??10*t}var t=e=>Math.sign(e)*Math.log2(1+Math.abs(e)),n=(e,t,n)=>Math.min(n,Math.max(t,e));function r(e){if(!(e>0))return 1;let t=10**Math.floor(Math.log10(e)),n=e/t;return(n<=1?1:n<=2?2:n<=5?5:10)*t}export{t as i,r as n,e as r,n as t};

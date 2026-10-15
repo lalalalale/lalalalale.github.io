@@ -1,0 +1,1 @@
+var e=(e,n)=>Math.abs(t(e,n)),t=(e,t)=>e-t*Math.round(e/t),n=(e,t)=>t?n(t,e%t):e;function r(e,t,r,i=200){let a=t/e*r,o=Math.round(a),s=0,c=1/0;for(let e=o-i;e<=o+i;e++)e<=0||e%2==0||n(e,r)!==1||Math.abs(e-a)<c&&(c=Math.abs(e-a),s=e);if(!s)throw Error(`no odd coprime bin near ${a.toFixed(2)} cycles`);return{fin:s*e/r,bin:s}}export{e as n,t as r,r as t};

@@ -1,0 +1,1 @@
+var e=(e,t)=>e.toFixed(t).replace(`-`,`−`),t=e=>e.replace(/(\.\d*?)0+$/,`$1`).replace(/\.$/,``);function n(e){let n=Math.abs(e);return n>=1e9?`${t((n/1e9).toFixed(4))} GHz`:n>=1e6?`${t((n/1e6).toFixed(n>=1e7?1:2))} MHz`:n>=1e3?`${t((n/1e3).toFixed(n>=1e5?0:1))} kHz`:`${n.toFixed(0)} Hz`}var r=t=>t>=1e3?`${e(t/1e3,t>=1e4?1:2)} ps`:`${e(t,0)} fs`;export{r as n,e as r,n as t};

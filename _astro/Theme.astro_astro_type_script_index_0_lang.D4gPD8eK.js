@@ -1,0 +1,1 @@
+import{t as e}from"./theme.g0i8zAd8.js";document.addEventListener(`astro:before-swap`,t=>e(t.newDocument.documentElement)),document.addEventListener(`astro:after-swap`,()=>e());

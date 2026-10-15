@@ -1,0 +1,1 @@
+function e(e=document.documentElement){e.classList.remove(`dark`),e.classList.add(`light`);try{localStorage.removeItem(`circuits-systems-theme`)}catch{}}function t(){return!0}export{t as n,e as t};
